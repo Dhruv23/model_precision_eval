@@ -1,0 +1,2 @@
+Throughput (qps),Latency mean (ms),GPU Compute Time mean (ms),H2D Latency mean (ms),D2H Latency mean (ms)
+700.587,1.9507,1.42432,0.196811,0.329563

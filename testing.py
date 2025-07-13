@@ -7,7 +7,7 @@ def run_trtexec(engine_path: str):
     cmd = [
         "trtexec",
         f"--loadEngine={engine_path}",
-        "--shapes=input:1x3x640x640",
+        "--shapes=images:1x3x640x640",
         "--avgRuns=100"
     ]
     print("Running:", " ".join(cmd))
